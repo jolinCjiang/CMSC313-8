@@ -1,6 +1,5 @@
 #include "matrix.h"
-#include <vector>
-
+#include<cstdio>
 
 Matrix::Matrix(int rows, int cols, int* arr) {
     m = rows;
