@@ -32,9 +32,11 @@ cd matrix-cpp && g++ matrix.cpp main.cpp -o matrix && ./matrix
 
 ## Expected Output
 The C version:
+
 <img width="486" alt="image" src="https://github.com/user-attachments/assets/693db92f-5595-42f5-8820-cd8f07f05fa9" />
 
 The C++ version:
+
 <img width="572" alt="image" src="https://github.com/user-attachments/assets/c0f1743d-1453-44ff-accc-1e0857445c8c" />
 
 
