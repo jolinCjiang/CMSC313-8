@@ -10,6 +10,16 @@ The "matrix-c" folder includes the header file for matrix operations (matrix.h) 
 
 The "matrix-cpp" folder includes the header file for matrix operations (matrix.h) and its implementation (matrix.cpp). There is also a file that tests the given expression in the homework (main.cpp).
 
+## Testing Methodology
+Testing during development consisted of including more aggressive compiler warnings, and treating them as errors. For example, in the C code:
+```shell
+gcc -Wall -Werror matrix.c main.c -o matrix && ./matrix
+```
+Additionally, both the C and C++ binaries were run through Valgrind to detect memory leaks:
+```shell
+gcc -Wall -Werror matrix.c main.c -o matrix && valgrind ./matrix
+```
+
 ## C Version
 To compile:
 ```shell
